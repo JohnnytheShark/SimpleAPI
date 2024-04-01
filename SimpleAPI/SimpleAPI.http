@@ -1,0 +1,12 @@
+﻿@SimpleAPI_HostAddress = https://localhost:7257
+
+POST {{SimpleAPI_HostAddress}}/todoitems
+Content-Type: application/json
+
+{
+  "name":"Creating a Simple API",
+  "isComplete":true
+}
+
+###
+
